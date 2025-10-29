@@ -1,0 +1,99 @@
+.
+├── app
+│   ├── api
+│   │   ├── admin
+│   │   │   └── security
+│   │   │       └── dashboard
+│   │   │           └── route.ts
+│   │   ├── auth
+│   │   │   ├── 2fa
+│   │   │   │   └── setup
+│   │   │   │       └── route.ts
+│   │   │   ├── create-profile
+│   │   │   │   └── route.ts
+│   │   │   ├── forgot-password
+│   │   │   │   └── route.ts
+│   │   │   ├── login
+│   │   │   │   └── route.ts
+│   │   │   ├── logout
+│   │   │   │   └── route.ts
+│   │   │   ├── refresh-session
+│   │   │   │   └── route.ts
+│   │   │   ├── reset-password
+│   │   │   │   └── route.ts
+│   │   │   ├── signup
+│   │   │   │   └── route.ts
+│   │   │   └── verify-otp
+│   │   │       └── route.ts
+│   │   ├── test-db
+│   │   │   └── route.ts
+│   │   ├── test-redis
+│   │   │   └── route.ts
+│   │   └── user
+│   │       └── profile
+│   │           └── route.ts
+│   ├── auth
+│   │   ├── forgot-password
+│   │   │   └── page.tsx
+│   │   ├── login
+│   │   │   └── page.tsx
+│   │   └── signup
+│   │       └── page.tsx
+│   ├── globals.css
+│   ├── hooks
+│   │   └── useAutoRefresh.ts
+│   ├── layout.tsx
+│   ├── models
+│   │   ├── Profiles.ts
+│   │   └── RegisteredUser.ts
+│   ├── page.tsx
+│   └── settings
+│       └── page.tsx
+├── components
+│   ├── DebugAuth.tsx
+│   ├── gallery-grid.tsx
+│   ├── post-card.tsx
+│   ├── post-list.tsx
+│   ├── profiledropdown.tsx
+│   ├── site-header.tsx
+│   └── ui
+│       ├── badge.tsx
+│       ├── button.tsx
+│       ├── card.tsx
+│       ├── dialog.tsx
+│       ├── dropdown-menu.tsx
+│       ├── input.tsx
+│       ├── select.tsx
+│       └── sonner.tsx
+├── components.json
+├── contexts
+│   └── AuthContext.tsx
+├── eslint.config.mjs
+├── lib
+│   ├── auth
+│   │   └── middleware.ts
+│   ├── data.ts
+│   ├── frontend
+│   │   └── auth.ts
+│   ├── getIp.ts
+│   ├── mongoose.ts
+│   ├── redis.ts
+│   ├── security
+│   │   └── monitoring.ts
+│   ├── store.ts
+│   ├── types.ts
+│   └── utils.ts
+├── next.config.ts
+├── next-env.d.ts
+├── package.json
+├── package-lock.json
+├── pnpm-lock.yaml
+├── pnpm-workspace.yaml
+├── postcss.config.mjs
+├── proxy.ts
+├── public
+├── README.md
+├── tree.txt
+└── tsconfig.json
+
+36 directories, 61 files
